@@ -20,6 +20,7 @@ body {
     font-size: 60px;
     font-family: 'badaboom bb';
     stroke: ;
+    position: absolute;
 }
 
 .main_logo_text li:nth-of-type(1) {
