@@ -33,13 +33,12 @@ body {
 
 /* 메인 바텀 비주얼 영역 시작 */
 .main_bottom_visual {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(to bottom, #003EB9, #000080);
-    border: 1px solid green;
+    
 }
 
 .main_title {
+    width: 100%;
+    background: linear-gradient(to bottom, #003EB9, #000080);
     border: 1px solid violet;
     text-align: center;
 }
