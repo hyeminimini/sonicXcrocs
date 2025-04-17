@@ -13,9 +13,12 @@ body {
     height: 100vh;
     border: 1px solid red;
     background-color: #003EB9;
+    position: relative;
 }
 
 .main_logo img{
     display: block;
-    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 20%;
 }
