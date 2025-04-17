@@ -29,3 +29,12 @@ body {
     top: 0;
     left: 20%;
 }
+/* 메인 비주얼 영역 끝 */
+
+/* 메인 바텀 비주얼 영역 시작 */
+.main_bottom_visual {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #003EB9, #000080);
+    border: 1px solid green;
+}
