@@ -33,7 +33,7 @@ body {
 
 /* 메인 바텀 비주얼 영역 시작 */
 .main_bottom_visual {
-    
+    width: 100%;
 }
 
 .main_title {
@@ -61,5 +61,5 @@ body {
 }
 
 .main_bottom_bg img {
-
+    width: 100%;
 }
