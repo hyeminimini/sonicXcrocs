@@ -16,6 +16,10 @@ body {
     position: relative;
 }
 
+.main_bg {
+    width: 100%;
+}
+
 .main_logo img {
     display: block;
     position: absolute;
@@ -32,7 +36,7 @@ body {
 /* 메인 비주얼 영역 끝 */
 
 /* 메인 바텀 비주얼 영역 시작 */
-.main_bottom_visual {
+.main_middle_visual {
     width: 100%;
 }
 
@@ -60,6 +64,16 @@ body {
     font-size: 25px;
 }
 
+.main_bottom_visual {
+    position: relative;
+}
+
 .main_bottom_bg img {
     width: 100%;
+}
+
+.main_bottom_object img {
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
