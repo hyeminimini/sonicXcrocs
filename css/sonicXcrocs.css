@@ -72,7 +72,6 @@ body {
 
 .main_title {
     width: 100%;
-   
     border: 1px solid violet;
     text-align: center;
 }
@@ -102,35 +101,53 @@ body {
     background: url(../img/sonic_bg.png)no-repeat center center;
 }
 
-.main_bottom_bg img {
-    /* width: 100%; */
-}
-
 .main_bottom_cloud {
     width: 100%;
     margin: 0 auto;
     border: 1px solid green;
 }
+
 .main_bottom_cloud img {
     width: 100%;
-    /* position: absolute;
-    top: 0; */
 }
 
 .main_pixel_character li {
     position: absolute;
+    transform: translate(-50%,-50%);
 }
 
 .main_pixel_character li:nth-of-type(1){
-    top: 42%;
-    left: 5%;
+    top: 53%;
+    left: 10%;
 }
 
 .main_pixel_character li:nth-of-type(2){
     top: 13%;
-    right: 20%;
+    right: 17%;
 }
 
-.main_gold_ring li {
+.gold_ring {
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.gold_ring:nth-of-type(1) {
+    top: 15%;
+    left: 25%;
+}
+
+.gold_ring:nth-of-type(2) {
+    top: 70%;
+    right: 5%;
+}
+
+.gold_ring li {
     display: inline;
+}
+
+.main_crocs {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 48%;
 }
