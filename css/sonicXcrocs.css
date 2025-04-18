@@ -3,8 +3,12 @@ a {text-decoration: none; color: #000;}
 li {list-style: none;}
 /* 기본 세팅 */
 
-body {
+html {
+    overflow-x: hidden;
+}
 
+body {
+    overflow-x: hidden;
 }
 
 /* 메인 비주얼 영역 시작 */
@@ -35,7 +39,7 @@ body {
 }
 /* 메인 비주얼 영역 끝 */
 
-/* 메인 바텀 비주얼 영역 시작 */
+/* 메인 미들 비주얼 영역 시작 */
 .main_middle_visual {
     width: 100%;
 }
@@ -63,7 +67,9 @@ body {
     font-family: 'galmuri11';
     font-size: 25px;
 }
+/* 메인 미들 비주얼 영역 끝 */
 
+/* 메인 바텀 비주얼 영역 시작 */
 .main_bottom_visual {
     position: relative;
 }
@@ -72,8 +78,13 @@ body {
     width: 100%;
 }
 
-.main_bottom_object img {
+.main_bottom_cloud img {
     width: 100%;
     position: absolute;
     top: 0;
+}
+
+.main_gold_ring li {
+    display: inline;
+    
 }
