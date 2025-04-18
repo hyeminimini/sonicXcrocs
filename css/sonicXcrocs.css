@@ -24,18 +24,29 @@ body {
     width: 100%;
 }
 
+.main_bg img {
+    display: block;
+    width: 100%;
+}
+
 .main_logo img {
+    
     display: block;
     position: absolute;
     top: 8%;
     left: 5%;
 }
-
-.main_img img{
-    display: block;
+.main_img {
+    max-width: max-content;
     position: absolute;
-    top: 0;
-    left: 20%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+}
+.main_img img{
+    width: ;
+    display: block;
 }
 /* 메인 비주얼 영역 끝 */
 
