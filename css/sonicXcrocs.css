@@ -36,8 +36,9 @@ body {
 .main_logo img {
     display: block;
     position: absolute;
-    top: 8%;
-    left: 5%;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
 }
 
 .main_img {
