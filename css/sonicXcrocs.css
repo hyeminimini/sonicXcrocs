@@ -15,7 +15,6 @@ body {
 .main_visual {
     max-width: 100%;
     height: 100vh;
-    border: 1px solid red;
     background-color: #003EB9;
     position: relative;
     background-image: url(../img/main_bg.png);
@@ -35,56 +34,51 @@ body {
 }
 
 .main_logo img {
-    
     display: block;
     position: absolute;
     top: 8%;
     left: 5%;
 }
+
 .main_img {
-    /* display: block; */
     width: 1160px;
-   
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid red;
 }
+
 .main_img img{
    width: 100%;
     height: auto;
-    /* object-fit: cover; */
     display: block;
     margin: 0 auto;
-   border: 1px solid red;
 }
-    
-
 /* 메인 비주얼 영역 끝 */
 
 /* 메인 미들 비주얼 영역 시작 */
 .main_middle_visual {
-    padding: 100px 0;
+    padding: 80px 0;
     width: 100%;
     background: linear-gradient(to bottom, #003EB9, #000080);
 }
 
 .main_title {
     width: 100%;
-    border: 1px solid violet;
     text-align: center;
 }
 
 .main_title li:nth-of-type(1) {
     font-family: 'badaboom bb';
     font-size: 120px;
+    padding: 130px 0px 50px 0px;
 }
 
 .main_title li:nth-of-type(2) {
     color: #fff;
     font-family: 'galmuri11';
     font-size: 30px;
+    padding-bottom: 25px;
 }
 
 .main_title li:nth-of-type(3) {
@@ -104,7 +98,6 @@ body {
 .main_bottom_cloud {
     width: 100%;
     margin: 0 auto;
-    border: 1px solid green;
 }
 
 .main_bottom_cloud img {
@@ -122,7 +115,7 @@ body {
 }
 
 .main_pixel_character li:nth-of-type(2){
-    top: 13%;
+    top: 14%;
     right: 17%;
 }
 
@@ -137,8 +130,8 @@ body {
 }
 
 .gold_ring:nth-of-type(2) {
-    top: 70%;
-    right: 5%;
+    top: 68%;
+    right: 3%;
 }
 
 .gold_ring li {
@@ -151,3 +144,4 @@ body {
     top: 55%;
     left: 48%;
 }
+/* 메인 바텀 비주얼 영역 끝 */
