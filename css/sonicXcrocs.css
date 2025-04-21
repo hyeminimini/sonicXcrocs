@@ -146,10 +146,15 @@ body {
 }
 
 .median_line{
+   width: inherit;
     position: absolute;
-    top: 97.2%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    left: 0;
+    bottom: 0;
+}
+
+.median_line img {
+    width: 100%;
+    display: block;
 }
 /* 메인 바텀 비주얼 영역 끝 */
 
@@ -185,7 +190,7 @@ body {
 }
 
 .items_container {
-    width: 1370px;
+    max-width: 1370px;
     margin: 0 auto;
     padding-top: 170px;
     border: 1px solid red;
@@ -196,6 +201,8 @@ body {
 }
 
 .items_wrap h2 {
+    margin: 0 auto;
+    width: max-content;
     color: #fff;
     font-family: 'galmuri11';
     font-size: 50px;
@@ -210,8 +217,20 @@ body {
     padding-top: 150px;
     border: 1px solid blue;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.crocs_items li {
+    box-sizing: border-box;
+    width: 25%;
+    border: 1px solid ;
+}
+
+.crocs_items li img{
+    display: block;
+    width: 100%;
 }
 
 .jibbitz_items {
