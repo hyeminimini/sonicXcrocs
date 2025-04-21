@@ -144,17 +144,42 @@ body {
     top: 55%;
     left: 48%;
 }
+
+.median_line{
+    position: absolute;
+    top: 97.2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 /* 메인 바텀 비주얼 영역 끝 */
 
+/* 크록스 아이템 영역 시작 */
 .crocs_item {
     width: 100%;
     background-color: #FFB618;
     position: relative;
 }
 
-.median_line{
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.item_title {
+    width: 100%;
+    text-align: center;
+}
+
+.item_title li:nth-of-type(1) {
+    font-family: 'badaboom bb';
+    font-size: 120px;
+    padding: 360px 0px 50px 0px;
+}
+
+.item_title li:nth-of-type(2) {
+    color: #fff;
+    font-family: 'galmuri11';
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.item_title li:nth-of-type(3) {
+    color: #fff;
+    font-family: 'galmuri11';
+    font-size: 25px;
 }
