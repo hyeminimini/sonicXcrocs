@@ -145,3 +145,16 @@ body {
     left: 48%;
 }
 /* 메인 바텀 비주얼 영역 끝 */
+
+.crocs_item {
+    width: 100%;
+    background-color: #FFB618;
+    position: relative;
+}
+
+.median_line{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
