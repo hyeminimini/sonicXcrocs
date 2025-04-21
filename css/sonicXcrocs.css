@@ -267,11 +267,33 @@ body {
     width: 100%;
 }
 
+
+/* 크록스 아이템 영역 끝 */
+
+/* 이벤트 첫 페이지 영역 시작 */
+.event_wrap {
+    width: 100%;
+    background: url(../img/tails_bg.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
 .median_line_bottom {
     width: inherit;
     position: absolute;
+    top: 0;
     left: 0;
-    bottom: 0;
     border: 1px solid blue;
 }
-/* 크록스 아이템 영역 끝 */
+
+.median_line_bottom img {
+    width: 100%;
+    display: block;
+}
+
+.event_container {
+    max-width: 1370px;
+    padding-top: 278px;
+    margin: 0 auto;
+    text-align: center;
+}
