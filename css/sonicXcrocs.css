@@ -90,6 +90,7 @@ body {
 
 /* 메인 바텀 비주얼 영역 시작 */
 .main_bottom_visual {
+    border: 1px solid red;
     height: 100vh;
     position: relative;
     background: url(../img/sonic_bg.png)no-repeat center center;
@@ -98,25 +99,46 @@ body {
 .main_bottom_cloud {
     width: 100%;
     margin: 0 auto;
+    display: flex;
 }
+
+
 
 .main_bottom_cloud img {
     width: 100%;
+    /* transition: all 1s; */
+    animation: cloud 10s infinite linear;
+    an
 }
 
-.main_pixel_character li {
+@keyframes cloud {
+    0%{
+        transform: translateX(0);
+        
+    }
+
+    50%{
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.main_pixel_character{
     position: absolute;
-    transform: translate(-50%,-50%);
+    
 }
 
-.main_pixel_character li:nth-of-type(1){
-    top: 53%;
-    left: 10%;
+.main_pixel_character:nth-of-type(1){
+    top: 40%;
+    left: 5%;
 }
 
-.main_pixel_character li:nth-of-type(2){
+.main_pixel_character:nth-of-type(2){
     top: 14%;
-    right: 15%;
+    right: 5%;
 }
 
 .gold_ring {
