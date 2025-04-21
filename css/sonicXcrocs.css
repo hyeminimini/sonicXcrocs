@@ -90,7 +90,6 @@ body {
 
 /* 메인 바텀 비주얼 영역 시작 */
 .main_bottom_visual {
-    border: 1px solid red;
     height: 100vh;
     position: relative;
     background: url(../img/sonic_bg.png)no-repeat center center;
@@ -102,13 +101,10 @@ body {
     display: flex;
 }
 
-
-
 .main_bottom_cloud img {
     width: 100%;
     /* transition: all 1s; */
     animation: cloud 10s infinite linear;
-    an
 }
 
 @keyframes cloud {
@@ -128,16 +124,15 @@ body {
 
 .main_pixel_character{
     position: absolute;
-    
 }
 
 .main_pixel_character:nth-of-type(1){
-    top: 40%;
-    left: 5%;
+    top: 42%;
+    left: 0%;
 }
 
 .main_pixel_character:nth-of-type(2){
-    top: 14%;
+    top: 2%;
     right: 5%;
 }
 
@@ -153,7 +148,7 @@ body {
 
 .gold_ring:nth-of-type(2) {
     top: 68%;
-    right: 3%;
+    right: 2%;
 }
 
 .gold_ring li {
@@ -168,7 +163,7 @@ body {
 }
 
 .median_line{
-   width: inherit;
+    width: inherit;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -183,8 +178,9 @@ body {
 /* 크록스 아이템 영역 시작 */
 .crocs_item {
     width: 100%;
-    background-color: #FFB618;
     position: relative;
+    background: url(../img/knuckles.png) no-repeat #FFB618;
+    background-position: left 40% ;
 }
 
 .item_title {
@@ -215,11 +211,6 @@ body {
     max-width: 1370px;
     margin: 0 auto;
     padding-top: 170px;
-    border: 1px solid red;
-}
-
-.items_wrap {
-    border: 2px solid green;
 }
 
 .items_wrap h2 {
@@ -232,12 +223,15 @@ body {
     background-color: #003EB9;
     border-radius: 50px;
     text-align: center;
-    /* padding: 16px 15px; */
+    padding: 16px 75px;
+}
+
+.items_wrap h2:nth-of-type(2) {
+    background-color: #DC0202;
 }
 
 .crocs_items {
     padding-top: 150px;
-    border: 1px solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -247,7 +241,7 @@ body {
 .crocs_items li {
     box-sizing: border-box;
     width: 25%;
-    border: 1px solid ;
+    padding-bottom: 240px;
 }
 
 .crocs_items li img{
@@ -260,4 +254,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 400px;
 }
+
+.jibbitz_items li {
+    box-sizing: border-box;
+    width: 25%;
+}
+
+.jibbitz_items li img {
+    display: block;
+    width: 100%;
+}
+
+.median_line_bottom {
+    width: inherit;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid blue;
+}
+/* 크록스 아이템 영역 끝 */
