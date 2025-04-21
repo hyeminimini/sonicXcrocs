@@ -273,6 +273,7 @@ body {
 /* 이벤트 첫 페이지 영역 시작 */
 .event_wrap {
     width: 100%;
+    padding-top: 279px;
     background: url(../img/tails_bg.png) no-repeat center center;
     background-size: cover;
     position: relative;
@@ -283,7 +284,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border: 1px solid blue;
 }
 
 .median_line_bottom img {
@@ -293,7 +293,64 @@ body {
 
 .event_container {
     max-width: 1370px;
-    padding-top: 278px;
+    border: 1px solid red;
     margin: 0 auto;
     text-align: center;
+}
+
+.event_container h2 {
+    color: #fff;
+    font-size: 70px;
+    padding-bottom: 35px;
+}
+
+.event_container h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'NanumGothic';
+    background-color: #DC0202;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 9px 72px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.event_container p {
+    color: #fff;
+    font-family: 'galmuri11';
+}
+
+.event_container p:nth-of-type(1) {
+    font-size: 64px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.event_container p:nth-of-type(1) span {
+    color: #FFB618;
+    font-size: 75px;
+}
+
+.event_container p:nth-of-type(2) {
+    font-size: 18px;
+    width: 589px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.event_btn {
+    padding-top: 49px;
+}
+
+.event_btn button {
+    color: #fff;
+    font-family: 'galmuri11';
+    font-weight: bold;
+    font-size: 22px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #FFB618;
+    padding: 21px 62px;
+    cursor: pointer;
 }
