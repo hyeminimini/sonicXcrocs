@@ -191,6 +191,10 @@ body {
     border: 1px solid red;
 }
 
+.items_wrap {
+    border: 2px solid green;
+}
+
 .items_wrap h2 {
     color: #fff;
     font-family: 'galmuri11';
@@ -205,6 +209,13 @@ body {
 .crocs_items {
     padding-top: 150px;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jibbitz_items {
+    padding-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
