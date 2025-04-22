@@ -275,7 +275,7 @@ body {
     width: 100%;
     padding: 279px 0px 225px 0px;
     padding-bottom: 225px;
-    background: url(../img/tails_bg.png), url(../img/tails.png);
+    background: url(../img/tails_bg.png) no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -338,9 +338,15 @@ body {
 
 .event_container1 p:nth-of-type(2) {
     font-size: 18px;
-    width: 589px;
+    width: 530px;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+
+.tails {
+    position: absolute;
+    top: 20%;
+    right: 0;
 }
 
 .event_btn {
@@ -417,6 +423,12 @@ body {
     width: 589px;
     margin: 0 auto;
     padding-bottom: 30px;
+}
+
+.amy {
+    position: absolute;
+    top: 20%;
+    left: 0;
 }
 
 .event_btn {
