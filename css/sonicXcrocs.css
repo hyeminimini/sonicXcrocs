@@ -275,7 +275,7 @@ body {
     width: 100%;
     padding: 279px 0px 225px 0px;
     padding-bottom: 225px;
-    background: url(../img/tails_bg.png) no-repeat center center;
+    background: url(../img/tails_bg.png), url(../img/tails.png);
     background-size: cover;
     position: relative;
 }
