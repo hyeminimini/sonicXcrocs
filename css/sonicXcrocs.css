@@ -271,9 +271,10 @@ body {
 /* 크록스 아이템 영역 끝 */
 
 /* 이벤트 첫 페이지 영역 시작 */
-.event_wrap {
+.event1_wrap {
     width: 100%;
-    padding-top: 279px;
+    padding: 279px 0px 225px 0px;
+    padding-bottom: 225px;
     background: url(../img/tails_bg.png) no-repeat center center;
     background-size: cover;
     position: relative;
@@ -291,20 +292,23 @@ body {
     display: block;
 }
 
-.event_container {
+.event_container1 {
     max-width: 1370px;
     border: 1px solid red;
     margin: 0 auto;
     text-align: center;
+    
 }
 
-.event_container h2 {
+.event_container1 h2 {
     color: #fff;
     font-size: 70px;
     padding-bottom: 35px;
+    font-family: 'Comic Kings';
+    font-weight: 400;
 }
 
-.event_container h3 {
+.event_container1 h3 {
     color: #fff;
     font-size: 24px;
     font-family: 'NanumGothic';
@@ -316,23 +320,99 @@ body {
     margin-bottom: 30px;
 }
 
-.event_container p {
+.event_container1 p {
     color: #fff;
     font-family: 'galmuri11';
 }
 
-.event_container p:nth-of-type(1) {
+.event_container1 p:nth-of-type(1) {
     font-size: 64px;
     font-weight: bold;
     padding-bottom: 10px;
 }
 
-.event_container p:nth-of-type(1) span {
+.event_container1 p:nth-of-type(1) span {
     color: #FFB618;
     font-size: 75px;
 }
 
-.event_container p:nth-of-type(2) {
+.event_container1 p:nth-of-type(2) {
+    font-size: 18px;
+    width: 589px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.event_btn {
+    padding-top: 49px;
+}
+
+.event_btn button {
+    color: #fff;
+    font-family: 'galmuri11';
+    font-weight: bold;
+    font-size: 22px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #FFB618;
+    padding: 21px 62px;
+    cursor: pointer;
+}
+/* 이벤트 첫 페이지 영역 끝 */
+
+/* 이벤트 두 번째 페이지 영역 시작 */
+.event2_wrap {
+    width: 100%;
+    padding: 183px 0px 230px 0px;
+    background: url(../img/amy_bg.png) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.event_container2 {
+    max-width: 1370px;
+    border: 1px solid red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.event_container2 h2 {
+    color: #3C345B;
+    font-size: 70px;
+    padding-bottom: 35px;
+    font-family: 'Comic Kings';
+    font-weight: 400;
+}
+
+.event_container2 h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'NanumGothic';
+    background-color: #DC0202;
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 9px 72px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.event_container2 p {
+    color: #fff;
+    font-family: 'galmuri11';
+}
+
+.event_container2 p:nth-of-type(1) {
+    font-size: 64px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.event_container2 p:nth-of-type(1) span {
+    color: #DC0202;
+    font-size: 75px;
+}
+
+.event_container2 p:nth-of-type(2) {
     font-size: 18px;
     width: 589px;
     margin: 0 auto;
