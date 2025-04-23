@@ -342,13 +342,6 @@ body {
     padding-bottom: 30px;
 }
 
-.tails {
-    position: absolute;
-    top: 20%;
-    right: 0;
-    
-}
-
 .event_btn {
     padding-top: 49px;
 }
@@ -370,8 +363,8 @@ body {
 .event2_wrap {
     width: 100%;
     padding: 183px 0px 230px 0px;
-    background: url(../img/amy_bg.png) no-repeat center center;
-    background-size: cover;
+    background: url(../img/amy.png) no-repeat center left, url(../img/amy_bg.png) no-repeat center center;
+    background-size: auto, cover;
     position: relative;
 }
 
@@ -424,12 +417,6 @@ body {
     padding-bottom: 30px;
 }
 
-.amy {
-    position: absolute;
-    top: 20%;
-    left: 0;
-}
-
 .event_btn {
     padding-top: 49px;
 }
@@ -460,7 +447,6 @@ body {
 .explanation_container {
     max-width: 1370px;
     margin: 0 auto;
-    
 }
 
 .explanation_container p {
@@ -487,20 +473,20 @@ body {
 .event_qr {
     margin-top: 100px;
     width: 100%;
-   position: relative;
-   border: 1px solid blue;
+    position: relative;
+    border: 1px solid blue;
 }
 
 .event_qr .goods {
     
-display: block;
-width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .event_qr .shadow {
    position: absolute;
-  top: 50%;
-  right: -300px;
+    top: 50%;
+    right: -300px;
     transform: translateY(-50%);
 }
 /* 이벤트 기간 설명 페이지 영역 끝 */
