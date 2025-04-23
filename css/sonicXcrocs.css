@@ -502,7 +502,6 @@ body {
 }
 
 .note_container {
-    border: 1px solid;
     max-width: 1370px;
     margin: 0 auto;
     color: #fff;
@@ -516,12 +515,13 @@ body {
 
 .note_container li {
     display: flex;
-    align-items: center;
 }
 
 .note_container li:nth-of-type(1) i {
     font-size: 41px;
     padding-right: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .note_container li:nth-of-type(1) {
@@ -535,6 +535,7 @@ body {
 }
 
 .note_container li:nth-of-type(4) {
+    width: 1150px;
     padding-bottom: 65px;
 }
 
