@@ -493,3 +493,43 @@ body {
     top: 0;
     right: -1%;
 }
+/* 이벤트 기간 설명 페이지 영역 끝 */
+
+/* 이벤트 유의 사항 영역 시작 */
+.event_note {
+    width: 100%;
+    background-color: #DC0202;
+}
+
+.note_container {
+    border: 1px solid;
+    max-width: 1370px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'galmuri11';
+    font-size: 24px;
+}
+
+.note_container i {
+    padding-right: 10px;
+}
+
+.note_container li:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 65px 0 30px 0;
+}
+
+.note_container li:nth-of-type(2) {
+    padding-bottom: 20px;
+}
+
+.note_container li:nth-of-type(3) {
+    padding-bottom: 20px;
+}
+
+.note_container li:nth-of-type(4) {
+    padding-bottom: 65px;
+    width: 1125px;
+}
+
