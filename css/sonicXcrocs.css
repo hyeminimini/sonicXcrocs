@@ -20,17 +20,7 @@ body {
     background-image: url(../img/main_bg.png);
     background-position: center center;
     background-repeat: no-repeat;
-
     background-size:cover;
-}
-
-.main_bg {
-    width: 100%;
-}
-
-.main_bg img {
-    display: block;
-    width: 100%;
 }
 
 .main_logo img {
@@ -547,8 +537,23 @@ footer {
     font-family: 'Noto Sans';
     text-align: center;
 }
+/* 푸터 끝 */
 
+/* 테블릿 미디어쿼리 */
 @media screen and (max-width: 768px){
-    
+    .main_visual {
+        width: 100%;
+    }
+
+    .main_logo img {
+        top: 12%;
+        left: 15%;
+    }
+
+    .main_img {
+        width: 100%;
+        top:50%;
+        left: 50%;
+    }
 }
 
