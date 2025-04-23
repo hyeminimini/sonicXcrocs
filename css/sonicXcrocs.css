@@ -294,7 +294,6 @@ body {
 
 .event_container1 {
     max-width: 1370px;
-    border: 1px solid red;
     margin: 0 auto;
     text-align: center;
     
@@ -377,7 +376,6 @@ body {
 
 .event_container2 {
     max-width: 1370px;
-    border: 1px solid red;
     margin: 0 auto;
     text-align: center;
 }
@@ -538,6 +536,7 @@ body {
     width: 1150px;
     padding-bottom: 65px;
 }
+/* 이벤트 유의 사항 영역 끝 */
 
 /* 푸터 시작 */
 footer {
