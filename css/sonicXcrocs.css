@@ -342,6 +342,7 @@ body {
     padding-bottom: 30px;
 }
 
+
 .event_btn {
     padding-top: 49px;
 }
@@ -478,7 +479,6 @@ body {
 }
 
 .event_qr .goods {
-    
     display: block;
     width: 100%;
 }
