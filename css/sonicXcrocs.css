@@ -824,15 +824,52 @@ footer {
 
     .event_qr .goods_mobile {
         display: block;
-        margin: 0 auto;
+        margin: 0 100px;
     }
 
     .event_qr .shadow {
         width: 47%;
         top: 50%;
-        right: -100px;
+        right: 0px;
         transform: translateY(-50%);
      }
+     /* 이벤트 기간 설명 페이지 영역 끝 */
+
+     /* 이벤트 유의 사항 영역 시작 */
+     .event_note {
+        width: 100%;
+    }
+
+    .note_container {
+        font-size: 15px;
+        margin: 0 auto;
+        border: 1px solid;
+        max-width: 570px;
+    }
+
+    .note_container li:nth-of-type(1) i {
+        font-size: 22px;
+    }
+
+    .note_container li:nth-of-type(1) {
+        font-size: 20px;
+        padding: 30px 0 15px 0;
+    }
+
+    .note_container li p {
+        padding-bottom: 16px;
+    }
+
+    .note_container li:nth-of-type(4) {
+        width: 570px;
+        padding-bottom: 30px;
+    }
+    /* 이벤트 유의 사항 영역 끝 */
+
+    /* 푸터 시작 */
+    footer {
+        width: 100%;
+    }
 
 }
 
