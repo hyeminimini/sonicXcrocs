@@ -452,8 +452,12 @@ body {
     width: 100%;
 }
 
+.event_qr .goods_mobile {
+    display: none;
+}
+
 .event_qr .shadow {
-   position: absolute;
+    position: absolute;
     top: 50%;
     right: -300px;
     transform: translateY(-50%);
@@ -787,8 +791,48 @@ footer {
     /* 이벤트 기간 설명 페이지 영역 시작 */
     .event_explanation_wrap {
         width: 100%;
+        height: 60vh;
         padding-top: 26px;
     }
+
+    .explanation_container {
+        max-width: 100%;
+    }
+
+    .explanation_container p {
+        font-size: 20px;
+        width: 570px;
+    }
+
+    .explanation_container p:nth-of-type(1) {
+        padding-bottom: 15px;
+    }
+
+    .explanation_container p span {
+        padding: 3px 15px;
+        margin-right: 10px;
+    }
+
+    .event_qr {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .event_qr .goods {
+        display: none;
+    }
+
+    .event_qr .goods_mobile {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .event_qr .shadow {
+        width: 47%;
+        top: 50%;
+        right: -100px;
+        transform: translateY(-50%);
+     }
 
 }
 
