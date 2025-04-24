@@ -59,8 +59,6 @@ body {
 }
 
 .main_title li:nth-of-type(1) {
-    font-family: 'badaboom bb';
-    font-size: 120px;
     padding: 130px 0px 50px 0px;
 }
 
@@ -541,19 +539,91 @@ footer {
 
 /* 테블릿 미디어쿼리 */
 @media screen and (max-width: 768px){
+
+    /* 메인 비주얼 영역 시작 */
+
     .main_visual {
-        width: 100%;
+        height: none;
     }
 
     .main_logo img {
-        top: 12%;
-        left: 15%;
+        width: 100px;
+        top: 10%;
+        left: 10%;
     }
 
     .main_img {
         width: 100%;
-        top:50%;
+        top:42%;
         left: 50%;
     }
+    /* 메인 비주얼 영역 끝 */
+
+    /* 메인 미들 비주얼 영역 시작 */
+    .main_middle_visual {
+        padding: 75px 0;
+        width: 100%;
+    }
+
+    .main_title {
+        width: 100%;
+    }
+
+    .main_title li:nth-of-type(1) {
+        padding: 30px 0px 50px 0px;
+    }
+
+    .main_title li:nth-of-type(2) {
+        font-size: 25px;
+        padding-bottom: 25px;
+    }
+
+    .main_title li:nth-of-type(3) {
+        font-size: 18px;
+    }
+    /* 메인 미들 비주얼 영역 끝 */
+
+    /* 메인 바텀 비주얼 영역 시작 */
+    .main_bottom_visual{
+        width: 100%;
+    }
+    
+    .main_pixel_character {
+        display: block;
+        
+    }
+
+    .main_pixel_character:nth-of-type(1){
+        top: 40%;
+    }
+
+    .main_pixel_character:nth-of-type(2){
+        right: 0%;
+    }
+
+    .gold_ring img {
+        width: 20%;
+    }
+
+    .gold_ring:nth-of-type(1) {
+        top: 15%;
+        left: 25%;
+    }
+
+    .gold_ring:nth-of-type(2) {
+        top: 40%;
+        right: -25%;
+    }
+
+    .main_crocs {
+        top: 60%;
+        left: 50%;
+    }
+
+    .main_crocs img {
+        width: 100%;
+        display: block;
+    }
+
 }
 
