@@ -775,6 +775,13 @@ footer {
         margin: 0 auto;
         display: block;
     }
+    /* 이벤트 두 번째 페이지 영역 끝 */
+
+    /* 이벤트 기간 설명 페이지 영역 시작 */
+    .event_explanation_wrap {
+        width: 100%;
+        padding-top: 26px;
+    }
 
 }
 
