@@ -676,7 +676,7 @@ footer {
         padding: 60px 0;
         padding-bottom: 64px;
         background:url(../img/tails.png)no-repeat 112% center , url(../img/tails_bg.png) no-repeat  center center;
-        background-size:300px,cover;
+        background-size:310px,cover;
     }
 
     .median_line_bottom {
@@ -740,7 +740,7 @@ footer {
         width: 100%;
         padding: 60px 0;
         padding-bottom: 64px;
-        background: url(../img/amy.png) no-repeat -8% center, url(../img/amy_bg.png);
+        background: url(../img/amy.png) no-repeat -8% center, url(../img/amy_bg.png)no-repeat center center;
         background-size:280px,cover;
     }
 
