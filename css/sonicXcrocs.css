@@ -259,7 +259,7 @@ body {
     width: 100%;
     padding: 279px 0px 225px 0px;
     padding-bottom: 225px;
-    background:url(../img/tails.png)no-repeat right 0px center , url(../img/tails_bg.png) no-repeat  center center;
+    background:url(../img/tails.png)no-repeat right center , url(../img/tails_bg.png) no-repeat  center center;
     background-size:auto,cover;
     position: relative;
 }
@@ -280,7 +280,6 @@ body {
     max-width: 1370px;
     margin: 0 auto;
     text-align: center;
-    
 }
 
 .event_container1 h2 {
@@ -325,7 +324,6 @@ body {
     margin: 0 auto;
     padding-bottom: 30px;
 }
-
 
 .event_btn {
     padding-top: 49px;
@@ -630,8 +628,8 @@ footer {
     /* 크록스 아이템 영역 시작 */
     .crocs_item {
         width: 100%;
-        background-position: left 48%;
-        background-size: 480px;
+        background-position: left 50%;
+        background-size: 400px;
     }
 
     .item_title li:nth-of-type(1) {
@@ -682,10 +680,56 @@ footer {
     /* 이벤트 첫 페이지 영역 시작 */
     .event1_wrap {
         width: 100%;
-        padding: 279px 0px 225px 0px;
-        padding-bottom: 225px;
-        background:url(../img/tails.png)no-repeat right 0px center , url(../img/tails_bg.png) no-repeat  center center;
-        background-size:auto,cover;
+        padding: 57px 0;
+        padding-bottom: 64px;
+        background-size:350px,cover;
     }
+
+    .median_line_bottom {
+        width: inherit;
+        top: -1px;
+        left: 0;
+    }
+
+    .median_line_bottom img {
+        display: block;
+    }
+
+    .event_container1 {
+        width: 100%;
+    }
+
+    .event_container1 h2 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    .event_container1 h3 {
+        font-size: 16px;
+        padding: 6px 51px;
+        margin-bottom: 5px;
+    }
+
+    .event_container1 p:nth-of-type(1) {
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+
+    .event_container1 p:nth-of-type(1) span {
+        font-size: 30px;
+    }
+
+    .event_container1 p:nth-of-type(2) {
+        font-size: 13px;
+        width: 380px;
+        padding-bottom: 10px;
+    }
+
+    .coupon_box{
+        width: 45%;
+        margin: 0 auto;
+        display: block;
+    }
+
 }
 
