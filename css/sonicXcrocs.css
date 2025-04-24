@@ -525,7 +525,8 @@ footer {
     /* 메인 비주얼 영역 시작 */
 
     .main_visual {
-        height: none;
+        height:100vh;
+
     }
 
     .main_logo img {
@@ -535,8 +536,8 @@ footer {
     }
 
     .main_img {
-        width: 100%;
-        top:42%;
+        width: 120%;
+        top:50%;
         left: 50%;
     }
     /* 메인 비주얼 영역 끝 */
@@ -603,7 +604,9 @@ footer {
     }
 
     .main_crocs {
-        top: 60%;
+        width: 70%;
+        border: 1px solid red;
+        top: 50%;
         left: 50%;
     }
 
@@ -616,6 +619,8 @@ footer {
     /* 크록스 아이템 영역 시작 */
     .crocs_item {
         width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
         background-position: left 50%;
         background-size: 350px;
     }
