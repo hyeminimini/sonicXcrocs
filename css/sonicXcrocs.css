@@ -629,7 +629,7 @@ footer {
     .crocs_item {
         width: 100%;
         background-position: left 50%;
-        background-size: 400px;
+        background-size: 350px;
     }
 
     .item_title li:nth-of-type(1) {
@@ -637,8 +637,8 @@ footer {
     }
 
     .item_title {
-    width: 100%;
-    text-align: center;
+        width: 100%;
+        text-align: center;
     }
 
     .item_title li:nth-of-type(2) {
@@ -680,9 +680,9 @@ footer {
     /* 이벤트 첫 페이지 영역 시작 */
     .event1_wrap {
         width: 100%;
-        padding: 57px 0;
+        padding: 60px 0;
         padding-bottom: 64px;
-        background-size:350px,cover;
+        background-size:300px,cover;
     }
 
     .median_line_bottom {
@@ -701,18 +701,18 @@ footer {
 
     .event_container1 h2 {
         font-size: 35px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
 
     .event_container1 h3 {
         font-size: 16px;
         padding: 6px 51px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
     .event_container1 p:nth-of-type(1) {
         font-size: 24px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 
     .event_container1 p:nth-of-type(1) span {
@@ -722,13 +722,22 @@ footer {
     .event_container1 p:nth-of-type(2) {
         font-size: 13px;
         width: 380px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
 
     .coupon_box{
         width: 45%;
         margin: 0 auto;
         display: block;
+    }
+
+    .event_btn {
+        padding-top: 10px;
+    }
+
+    .event_btn button {
+        font-size: 15px;
+        padding: 10px 26px;
     }
 
 }
