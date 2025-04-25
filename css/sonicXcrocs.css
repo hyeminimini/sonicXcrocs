@@ -985,7 +985,7 @@ footer {
     /* 크록스 아이템 영역 시작 */
     .crocs_item {
         width: 100%;
-        background-position: left 23%;
+        background-position: left 25%;
         background-size: 290px;
     }
 
@@ -1016,8 +1016,8 @@ footer {
 
     .items_wrap h2 {
         width: max-content;
-        font-size: 18px;
-        padding: 3px 17px;
+        font-size: 25px;
+        padding: 4px 25px;
     }
 
     .crocs_items {
