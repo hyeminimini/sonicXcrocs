@@ -237,6 +237,7 @@ body {
 .jibbitz_items {
     padding-top: 150px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding-bottom: 400px;
@@ -526,10 +527,8 @@ footer {
 @media screen and (max-width: 768px){
 
     /* 메인 비주얼 영역 시작 */
-
     .main_visual {
         height:100vh;
-
     }
 
     .main_logo img {
@@ -680,6 +679,7 @@ footer {
         padding-top: 50px;
         padding-bottom: 118px;
     }
+
     /* 크록스 아이템 영역 끝 */
 
     /* 이벤트 첫 페이지 영역 시작 */
@@ -876,6 +876,165 @@ footer {
 
     .footer_wrap {
         padding: 40px 0;
+    }
+}
+/* 테블릿 미디어쿼리 끝 */
+
+/* 모바일 미디어쿼리 */
+@media screen and (max-width: 480px) {
+
+    /* 메인 비주얼 영역 시작 */
+    .main_visual {
+        height:65vh;
+    }
+
+    .main_logo img {
+        width: 80px;
+        top: 12%;
+        left: 12%;
+        z-index: 999;
+    }
+
+    .main_img {
+        width: 130%;
+    }
+    /* 메인 비주얼 영역 끝 */
+
+    /* 메인 미들 비주얼 영역 시작 */
+    .main_middle_visual {
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .main_title img {
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .main_title li:nth-of-type(1) {
+        padding: 0px 0px 25px 0px;
+    }
+
+    .main_title li:nth-of-type(2) {
+        font-size: 21px;
+    }
+
+    .main_title li:nth-of-type(3) {
+        font-size: 14px;
+    }
+    /* 메인 미들 비주얼 영역 끝 */
+
+    /* 메인 바텀 비주얼 영역 시작 */
+    .main_bottom_visual{
+        width: 100%;
+    }
+
+    .main_bottom_cloud {
+        width: 250%;
+    }
+
+    .main_pixel_character img {
+        width: 50%;
+    }
+
+    .main_pixel_character:nth-of-type(1){
+        top: 46%;
+    }
+
+    .main_pixel_character:nth-of-type(2){
+        top: 13%;
+        right: -25%;
+    }
+
+    .main_gold_ring {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .gold_ring img {
+        width: 15%;
+        box-sizing: border-box;
+    }
+
+    .gold_ring:nth-of-type(1) {
+        top: 20%;
+        left: 40%;
+    }
+
+    .gold_ring:nth-of-type(2) {
+        top: 50%;
+        right: -28%;
+    }
+
+    .main_crocs {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        
+    }
+
+    .main_crocs img {
+        width: 100%;
+        display: block;
+    }
+    /* 메인 바텀 비주얼 영역 끝 */
+
+    /* 크록스 아이템 영역 시작 */
+    .crocs_item {
+        width: 100%;
+        background-position: left 23%;
+        background-size: 290px;
+    }
+
+    .item_title li:nth-of-type(1) {
+        padding: 80px 0px 25px 0px;
+    }
+
+    .item_title {
+        width: 100%;
+    }
+
+    .item_title img {
+        width: 90%;
+    }
+
+    .item_title li:nth-of-type(2) {
+        font-size: 21px;
+    }
+
+    .item_title li:nth-of-type(3) {
+        font-size: 13px;
+    }
+
+    .items_container {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .items_wrap h2 {
+        width: max-content;
+        font-size: 18px;
+        padding: 3px 17px;
+    }
+
+    .crocs_items {
+        padding-top: 60px;
+    }
+
+    .crocs_items li {
+        width: 50%;
+        padding-bottom: 60px;
+    }
+
+    .jibbitz_items {
+        padding: 60px 0;
+    }
+
+    .jibbitz_items li {
+        width: 50%;
     }
 
 }
