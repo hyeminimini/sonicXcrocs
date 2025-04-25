@@ -688,8 +688,8 @@ footer {
         height: 90vh;
         padding: unset;
         padding-top: 180px;
-        background:url(../img/tails.png)no-repeat 112% 40% , url(../img/tails_bg.png) no-repeat  center center;
-        background-size:400px,cover;
+        background:url(../img/tails.png)no-repeat 120% 46% , url(../img/tails_bg.png) no-repeat  center center;
+        background-size:420px,cover;
     }
 
     .median_line_bottom {
@@ -752,9 +752,9 @@ footer {
     .event2_wrap {
         width: 100%;
         height: 90vh;
-        padding: 80px 0;
+        padding: 100px 0;
         background: url(../img/amy.png) no-repeat -8% center, url(../img/amy_bg.png)no-repeat center center;
-        background-size:350px,cover;
+        background-size:340px,cover;
     }
 
     .event_container2 {
@@ -798,17 +798,13 @@ footer {
     /* 이벤트 기간 설명 페이지 영역 시작 */
     .event_explanation_wrap {
         width: 100%;
-        height: 60vh;
-        padding-top: 26px;
-    }
-
-    .explanation_container {
-        max-width: 100%;
+        height: 90vh;
+        padding: 50px 0;
     }
 
     .explanation_container p {
-        font-size: 20px;
-        width: 570px;
+        font-size: 25px;
+        width: 470px;
     }
 
     .explanation_container p:nth-of-type(1) {
@@ -823,6 +819,7 @@ footer {
     .event_qr {
         margin-top: 20px;
         width: 100%;
+        box-sizing: border-box;
     }
 
     .event_qr .goods {
@@ -831,14 +828,14 @@ footer {
 
     .event_qr .goods_mobile {
         display: block;
-        
-        width: 100%;
+        width:80%;
+        padding: 0 20px;
     }
 
     .event_qr .shadow {
         width: 47%;
-        top: 50%;
-        right: 0px;
+        top: 60%;
+        right: -10%;
         transform: translateY(-50%);
      }
      /* 이벤트 기간 설명 페이지 영역 끝 */
@@ -849,18 +846,18 @@ footer {
     }
 
     .note_container {
-        font-size: 15px;
+        font-size: 18px;
         margin: 0 auto;
         max-width: 570px;
     }
 
     .note_container li:nth-of-type(1) i {
-        font-size: 22px;
+        font-size: 35px;
     }
 
     .note_container li:nth-of-type(1) {
-        font-size: 20px;
-        padding: 30px 0 15px 0;
+        font-size: 28px;
+        padding: 30px 0 25px 0;
     }
 
     .note_container li p {
@@ -868,7 +865,7 @@ footer {
     }
 
     .note_container li:nth-of-type(4) {
-        width: 570px;
+        width:600px;
         padding-bottom: 30px;
     }
     /* 이벤트 유의 사항 영역 끝 */
