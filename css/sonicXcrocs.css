@@ -583,6 +583,9 @@ footer {
     
     .main_pixel_character {
         display: block;
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        width: 50p;
     }
 
     .main_pixel_character:nth-of-type(1){
