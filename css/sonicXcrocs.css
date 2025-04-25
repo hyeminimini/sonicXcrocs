@@ -634,7 +634,7 @@ footer {
         padding: 0 20px;
         box-sizing: border-box;
         background-position: left 50%;
-        background-size: 350px;
+        background-size: 420px;
     }
 
     .item_title li:nth-of-type(1) {
@@ -833,10 +833,9 @@ footer {
     }
 
     .event_qr .shadow {
-        width: 47%;
+        width: 50%;
         top: 60%;
         right: -10%;
-        transform: translateY(-50%);
      }
      /* 이벤트 기간 설명 페이지 영역 끝 */
 
