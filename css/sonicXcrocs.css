@@ -843,7 +843,6 @@ footer {
     .note_container {
         font-size: 15px;
         margin: 0 auto;
-        border: 1px solid;
         max-width: 570px;
     }
 
@@ -869,6 +868,10 @@ footer {
     /* 푸터 시작 */
     footer {
         width: 100%;
+    }
+
+    .footer_wrap {
+        padding: 33px 0;
     }
 
 }
