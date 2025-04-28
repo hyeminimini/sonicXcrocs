@@ -168,6 +168,7 @@ body {
     position: relative;
     background: url(../img/knuckles.png) no-repeat #FFB618;
     background-position: left 40%;
+    padding: 0 20px;
 }
 
 .item_title {
@@ -258,7 +259,7 @@ body {
 .event1_wrap {
     width: 100%;
     height: 90vh;
-    padding: 279px 0px 225px 0px;
+    padding: 279px 20px 225px 20px;
     background:url(../img/tails.png)no-repeat right center , url(../img/tails_bg.png) no-repeat  center center;
     background-size:auto,cover;
     position: relative;
@@ -345,7 +346,7 @@ body {
 /* 이벤트 두 번째 페이지 영역 시작 */
 .event2_wrap {
     width: 100%;
-    padding: 183px 0px 230px 0px;
+    padding: 183px 20px 230px 20px;
     background: url(../img/amy.png) no-repeat center left, url(../img/amy_bg.png) no-repeat center center;
     background-size: auto, cover;
     position: relative;
@@ -413,6 +414,7 @@ body {
     background-size: cover;
     position: relative;
     padding-top: 160px;
+    padding: 160px 20px;
 }
 
 .explanation_container {
@@ -467,6 +469,7 @@ body {
 /* 이벤트 유의 사항 영역 시작 */
 .event_note {
     width: 100%;
+    padding: 0 20px;
     background-color: #DC0202;
 }
 
@@ -630,7 +633,6 @@ footer {
     /* 크록스 아이템 영역 시작 */
     .crocs_item {
         width: 100%;
-        padding: 0 20px;
         box-sizing: border-box;
         background-position: left 50%;
         background-size: 420px;
@@ -686,7 +688,7 @@ footer {
     .event1_wrap {
         width: 100%;
         height: 90vh;
-        padding: 0px 20px;
+        padding: unset;
         padding-top: 180px;
         background:url(../img/tails.png)no-repeat 120% 46% , url(../img/tails_bg.png) no-repeat  center center;
         background-size:420px,cover;
@@ -752,7 +754,7 @@ footer {
     .event2_wrap {
         width: 100%;
         height: 90vh;
-        padding: 100px 20px;
+        padding: 100px 0;
         background: url(../img/amy.png) no-repeat -8% center, url(../img/amy_bg.png)no-repeat center center;
         background-size:340px,cover;
     }
@@ -799,7 +801,7 @@ footer {
     .event_explanation_wrap {
         width: 100%;
         height: 90vh;
-        padding: 50px 20px;
+        padding: 50px 0;
     }
 
     .explanation_container p {
